@@ -1,0 +1,9 @@
+# Do not commit local credentials or build artifacts
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+node_modules/
+.DS_Store
+Thumbs.db
